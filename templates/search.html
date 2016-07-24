@@ -25,7 +25,7 @@ Search results for {{ SITENAME|striptags|e }} blog.
 {% endblock meta_tags_in_head %}
 
 {% block script %}
-<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     {% if 'assets' in PLUGINS %}
     {% include '_includes/minify_tipuesearch.html' with context %}
     {% else %}
